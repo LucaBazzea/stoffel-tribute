@@ -1,0 +1,13 @@
+Create a brand guide that takes what you have learned about branding and identity into consideration and present this in a neatly formatted PDF document. Your document must contain graphics as well as text explaining the graphics.
+
+At it's simplest the document must set out to contexualize and justify the following elements,
+
+1. Short statement outlining the mission or purpose of the site and defining its audience
+2. A logo 
+3. Color palette
+4. Headline and body fonts
+5. Guidelines for use of photography
+6. Copywriting guidelines
+7. Additional design elements (glyphs, textures, shapes eg info, arrows etc)
+
+Ensure that your submission is well formatted with a cover page, neatly presented and easy to read.
