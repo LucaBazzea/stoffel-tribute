@@ -1,4 +1,25 @@
 body {
-    background-image: url();
+    background-image: url("img/Badger2.jpeg");
+    margin: 0 40px;
+    padding: 0;
+    font-family: 'PT Sans Narrow', sans-serif;
+    /*font-family: 'Roboto Slab', serif;*/
+}
+
+#header {
+    background-color: #a3e7d8;
+    margin: 0;
+    padding 0;
+}
+
+#header ul {
+    list-style-type: none;
+}
+
+.logo {
+    background-image: url("img/logo.png");
+}
+
+#wrapper {
     background-color: #222;
 }
