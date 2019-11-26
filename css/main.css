@@ -1,15 +1,13 @@
 body {
     background-image: url("img/Badger2.jpeg");
-    margin: 0 40px;
-    padding: 0;
-    font-family: 'PT Sans Narrow', sans-serif;
+    margin: 0;
+    font-family: 'PT Sans Caption', sans-serif;
+    background-color: #222;
     /*font-family: 'Roboto Slab', serif;*/
 }
 
 #header {
-    background-color: #a3e7d8;
-    margin: 0;
-    padding 0;
+    background-color: #aec4bf;
 }
 
 #header ul {
@@ -20,6 +18,34 @@ body {
     background-image: url("img/logo.png");
 }
 
-#wrapper {
-    background-color: #222;
+#nav {
+    background-color: lightgreen;
+}
+
+#hero {
+    background-color: lightgreen;
+}
+
+section {
+    background-color: #a3e7d8;
+}
+
+#youtube {
+    
+}
+
+#gallery {
+    
+}
+
+#feed {
+    
+}
+
+.ffeed, .ifeed {
+    display: inline;
+}
+
+footer {
+    background-color: #aec4bf;
 }
