@@ -7,14 +7,11 @@ body {
     border-radius: 4px;
 }
 
-h1, h2, p {
-    color: #222;
-    text-shadow: 1px 1px #fff;
-}
-
 #header {
     background-color: #02b875;
-    border-radius: 4px;
+    color: #222;
+    text-shadow: 1px 1px #fff;
+    border-radius: 5px;
 }
 
 #header ul {
@@ -29,7 +26,7 @@ h1, h2, p {
 #header h2 {
     margin: 0 20px;
     position: relative;
-    top: -35px;
+    bottom: 35px;
 }
 
 .logo {
@@ -39,21 +36,33 @@ h1, h2, p {
 
 #nav {
     background-color: #02b875;
+    color: #222;
+    text-shadow: 1px 1px #fff;
     border-radius: 4px;
     text-align: center;
+    height: 30px;
+    margin: 10px 0 0 0;
+}
+
+#nav ul {
+    margin: 0 35px 0 0;
 }
 
 #nav ul li {
-    display: inline-block;
     list-style-type: none;
-    margin: 0 10px;
-    
+    margin: 0 25px;
+    font-size: 15px;
+    float: right;
+}
+
+nav ul li h2 {
+    margin: 0;
 }
 
 #hero {
     background-color: #404040;
     height: 500px;
-    border-radius: 4px;
+    border-radius: 5px;
 
 }
 
@@ -64,14 +73,20 @@ h1, h2, p {
 #hero h1 {
     float: right;
     font-size: 60px;
-    margin: 0 10px 0 0;
-    position: ;
+    margin: 0 150px 0 0;
 }
 
 section {
     background-color: #404040;
-    border-radius: 4px;
+    border-radius: 5px;
     margin: 20px 0;
+    color: white;
+    text-shadow: 2px 2px #222;
+}
+
+p {
+    display: inline;
+    width: 500px;
 }
 
 #youtube {
@@ -96,5 +111,7 @@ section {
 
 footer {
     background-color: #02b875;
-    border-radius: 4px;
+    color: #222;
+    text-shadow: 1px 1px #fff;
+    border-radius: 5px;
 }
