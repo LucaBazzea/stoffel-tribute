@@ -1,37 +1,85 @@
 body {
-    background-image: url("img/Badger2.jpeg");
-    margin: 0;
+    margin: 0 40px;
     font-family: 'PT Sans Caption', sans-serif;
     background-color: #222;
+    background-image: url('../img/africa-sunset.jpeg');
     /*font-family: 'Roboto Slab', serif;*/
+    border-radius: 4px;
+}
+
+h1, h2, p {
+    color: #222;
+    text-shadow: 1px 1px #fff;
 }
 
 #header {
-    background-color: #aec4bf;
+    background-color: #02b875;
+    border-radius: 4px;
 }
 
 #header ul {
     list-style-type: none;
+    margin: 0;
+}
+
+#header ul li {
+    display: inline-block;
+}
+
+#header h2 {
+    margin: 0 20px;
+    position: relative;
+    top: -35px;
 }
 
 .logo {
-    background-image: url("img/logo.png");
+    background: no-repeat;
+    margin: 10px 5px 0 0;
 }
 
 #nav {
-    background-color: lightgreen;
+    background-color: #02b875;
+    border-radius: 4px;
+    text-align: center;
+}
+
+#nav ul li {
+    display: inline-block;
+    list-style-type: none;
+    margin: 0 10px;
+    
 }
 
 #hero {
-    background-color: lightgreen;
+    background-color: #404040;
+    height: 500px;
+    border-radius: 4px;
+
+}
+
+#hero article {
+    display: inline;
+}
+
+#hero h1 {
+    float: right;
+    font-size: 60px;
+    margin: 0 10px 0 0;
+    position: ;
 }
 
 section {
-    background-color: #a3e7d8;
+    background-color: #404040;
+    border-radius: 4px;
+    margin: 20px 0;
 }
 
 #youtube {
     
+}
+
+#youtube iframe {
+    margin: 10px 0 0 10px;
 }
 
 #gallery {
@@ -47,5 +95,6 @@ section {
 }
 
 footer {
-    background-color: #aec4bf;
+    background-color: #02b875;
+    border-radius: 4px;
 }
