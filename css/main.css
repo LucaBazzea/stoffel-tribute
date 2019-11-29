@@ -27,6 +27,7 @@ body {
     margin: 0 20px;
     position: relative;
     bottom: 35px;
+    font-size: 50px;
 }
 
 .logo {
@@ -73,7 +74,7 @@ nav ul li h2 {
 #hero h1 {
     float: right;
     font-size: 60px;
-    margin: 0 150px 0 0;
+    margin: 0 7% 0 0;
 }
 
 section {
@@ -98,7 +99,26 @@ p {
 }
 
 #gallery {
+    padding: 10px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 5px;
+}
+
+.grid-container > div {
+    width: auto;
     
+}
+
+.item3 {
+    grid-row-start: 2;
+}
+
+.item4 {
+
 }
 
 #feed {
