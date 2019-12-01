@@ -14,6 +14,11 @@ a {
     text-decoration: none;
 }
 
+a :hover {
+    text-decoration: underline;
+    transition-delay: 700ms;
+}
+
 p {
     font-family: 'Roboto Slab', serif;
     font-size: 20px;
@@ -52,7 +57,6 @@ p {
     color: #222;
     text-shadow: 1px 1px #fff;
     border-radius: 4px;
-    text-align: center;
     height: 30px;
     margin: 10px 0 0 0;
     position: sticky;
@@ -149,8 +153,8 @@ section {
     height: auto;
 }
 
-#feed {
-    
+.flexbox picture img :hover {
+    scale: 1.1;
 }
 
 .facebook, .instagram {
@@ -161,9 +165,84 @@ section {
     width: 500px;
 }
 
-footer {
+#footer {
     background-color: #02b875;
     color: #222;
     text-shadow: 1px 1px #fff;
     border-radius: 5px;
+    text-align: center;
+}
+
+#footer .feet {
+    display: inline;
+    margin: 0 10%;
+}
+
+@media screen and (max-width: 1886px) {
+    #feed {
+        padding: 10px;
+    }
+}
+
+@media screen and (max-width: 1602px) {
+    #feed .youtube {
+        display: none;
+    }
+
+    #feed .youtubes {
+        display: block;
+        position: relative;
+        top: 125px;
+        float: right;
+    }
+}
+
+@media screen and (max-width: 1166px) {
+    #header h2 {
+        font-size: 30px;
+        bottom: 40px;
+    }
+
+    #herotxt {
+        position: relative;
+        top: -500px;
+        margin: 0 1px 0 52%;
+    }
+
+    #hero h1 {
+        font-size: 35px;
+    }
+
+    #hero p {
+        font-size: 15px;
+    }
+
+    #feed {
+        padding: 10px;
+    }
+
+    #feed div {
+        margin: 0;
+    }
+
+    #feed .facebook {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+
+    #feed .youtubes {
+        top: 0;
+        float: none;
+        display: block;
+        margin: 10px auto 0 auto;
+        width: 56%;
+    }
+
+    #footer .feet {
+        margin: 0 5px;
+        font-size: 12px;
+    }
+
 }
