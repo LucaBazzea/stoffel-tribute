@@ -15,8 +15,8 @@ a {
 }
 
 p {
-    display: inline;
-    width: 500px;
+    font-family: 'Roboto Slab', serif;
+    font-size: 20px;
 }
 
 #header {
@@ -83,13 +83,18 @@ nav ul li h2 {
 }
 
 #hero article {
-    display: inline;
+    display: inline-block;
+}
+
+#herotxt {
+    margin: 0 0 0 6%;
+    position: relative;
+    top: -270px;
 }
 
 #hero h1 {
-    float: right;
     font-size: 60px;
-    margin: 0 7% 0 0;
+    margin: 0;
 }
 
 section {
@@ -100,16 +105,24 @@ section {
     text-shadow: 2px 2px #222;
 }
 
-#youtube, #gallery, #feed {
+#gallery, #feed {
     padding: 10px;
 }
 
-#youtube {
-    
+#feed {
+    padding: 10px 150px;
 }
 
-#youtube iframe {
-    
+#feed article {
+    display: inline;
+}
+
+.youtube {
+    float: right;
+}
+
+#feed .youtubes {
+    display: none;
 }
 
 #gallery {
