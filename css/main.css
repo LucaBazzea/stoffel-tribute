@@ -52,6 +52,13 @@ p {
     margin: 10px 5px 0 0;
 }
 
+nav {
+    position: sticky;
+    position: -webkit-sticky;
+    top: 1px;
+    z-index: 1;
+}
+
 #nav {
     background-color: #02b875;
     color: #222;
@@ -59,9 +66,7 @@ p {
     border-radius: 4px;
     height: 30px;
     margin: 10px 0 0 0;
-    position: sticky;
-    position: -webkit-sticky;
-    top: 0;
+   
 }
 
 #nav ul {
@@ -91,13 +96,13 @@ nav ul li h2 {
 }
 
 #herotxt {
-    margin: 0 0 0 6%;
+    margin: 0 0 0 40%;
     position: relative;
-    top: -270px;
+    top: -505px;
 }
 
 #hero h1 {
-    font-size: 60px;
+    font-size: 50px;
     margin: 0;
 }
 
