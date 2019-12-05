@@ -29,26 +29,31 @@ p {
     color: #222;
     text-shadow: 1px 1px #fff;
     border-radius: 5px;
+    line-height: 0;
 }
 
 #header ul {
     list-style-type: none;
     margin: 0;
+    padding: 0 0 0 10px;
 }
 
 #header ul li {
     display: inline-block;
 }
 
-#header h2 {
+#header .h2-lg {
     margin: 0 20px;
     position: relative;
-    bottom: 35px;
-    font-size: 50px;
+    bottom: 25px;
+    font-size: 35px;
+}
+
+#header .h2-sm {
+    display: none;
 }
 
 .logo {
-    background: no-repeat;
     margin: 10px 5px 0 0;
 }
 
@@ -95,6 +100,14 @@ nav ul li h2 {
     display: inline-block;
 }
 
+#hero .herolg {
+    display: inline;
+}
+
+#hero .heromed, .herosm {
+    display: none;
+}
+
 #herotxt {
     margin: 0 0 0 40%;
     position: relative;
@@ -132,10 +145,6 @@ section {
 
 #feed .youtubes {
     display: none;
-}
-
-#gallery {
-    
 }
 
 .flexbox {
@@ -203,9 +212,9 @@ section {
 }
 
 @media screen and (max-width: 1166px) {
-    #header h2 {
+    #header .h2-lg {
         font-size: 30px;
-        bottom: 40px;
+        bottom: 25px;
     }
 
     #herotxt {
@@ -248,6 +257,98 @@ section {
     #footer .feet {
         margin: 0 5px;
         font-size: 12px;
+    }
+
+}
+
+@media screen and (max-width: 1038px) {
+    
+    #header .h2-lg {
+        font-size: 20px;
+        bottom: 35px;
+    }
+
+    #herotxt {
+        margin: 0 10px 0 5%;
+    }
+
+    #hero h1 {
+        font-size: 50px;
+    }
+
+    #hero p {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 782px) {
+    #header .h2-lg {
+        display: none;    
+    }
+
+    #header .h2-sm {
+        margin: 0 0 0 20px;
+        display: inline-block;
+        position: relative;
+        bottom: 40px;
+    }
+
+    .herolg {
+        display: none;
+    }
+
+    .heromed {
+        display: inline-block;
+    }
+
+    #hero h1 {
+        font-size: 30px;
+    }
+
+    #hero p {
+        font-size: 15px;
+    }
+
+    #footer .feet {
+        display: inline-block;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    #nav ul {
+        margin: 0 10px 0 0;
+    }
+    
+    #nav ul li {
+        list-style-type: none;
+        margin: 0 20px 0 0;
+        font-size: 10px;
+        float: right;
+    }
+
+    #nav ul li a h2 {
+        margin: 5px 0 0 0;
+    }
+}
+
+@media screen and (max-width: 470px) {
+    .logo {
+        margin: 10px auto 0 auto;
+        display: block;
+        width: 50%;
+    }
+    
+    #header h2 {
+        margin: 0;
+    }
+
+    #header .h2-sm {
+        margin: 0 0 0 20px;
+        display: inline;
+        position: static;
+        bottom: 0;
+        line-height: 30px;
+        text-align: center;
     }
 
 }
