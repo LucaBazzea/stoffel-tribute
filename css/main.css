@@ -125,6 +125,7 @@ section {
     margin: 20px 0;
     color: white;
     text-shadow: 2px 2px #222;
+    box-shadow: 10px 10px 7px #555;
 }
 
 #gallery, #feed {
@@ -137,6 +138,12 @@ section {
 
 #feed article {
    display: inline;
+}
+
+#feed iframe {
+    background-color: #404040;
+    padding: 10px;
+    border-radius: 5px;
 }
 
 #feed .facebook-m {
@@ -319,7 +326,11 @@ section {
         bottom: 40px;
     }
 
-    .herolg {
+    #hero #herotxt {
+     
+    }
+
+    #hero .herolg {
         display: none;
     }
 
