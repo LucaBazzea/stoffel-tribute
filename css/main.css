@@ -167,9 +167,8 @@ section {
 }
 
 #myModal {
-    /*display: none;*/
+    display: none;
     text-align: center;
-    color: white;
     position: fixed;
     z-index: 1;
     padding-top: 100px;
@@ -180,8 +179,22 @@ section {
     height: 100%;
     overflow: auto;
     background-color: #000;
-    background-color: rgba(0,0,0,0.9);
-  }
+    background-color: rgba(0,0,0,0.8);
+}
+
+.close {
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: bold;
+    float: right;
+    margin: 0 10% 0 0;
+}
+
+.modal-img {
+    display: block;
+    margin: auto;
+    max-width: 500px;
+}
 
 .flexbox {
     flex-wrap: wrap;
@@ -361,6 +374,10 @@ section {
 
     #hero p {
         font-size: 15px;
+    }
+
+    .modal-content {
+        width: 100%;
     }
 
     #footer .feet {

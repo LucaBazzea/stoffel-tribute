@@ -1,13 +1,19 @@
-var gallery = ["../img/gorgeousbadger.jpg","../img/TheStoffel.gif","../img/Badger2.jpeg","../img/badgerfield.jpg","../img/sand-badger.jpg"]
+var modal = document.getElementById("myModal");
 
-let modal = document.getElementById("myModal")
-
-var imgCounter = 0
-
-img.innerHTML = [imgCounter]
-
-function imgNext(){
-    imgCounter++
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById("Img1");
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+  modal.style.display = "block";
+  modalImg.src = this.src;
+  captionText.innerHTML = this.alt;
 }
 
-console.log()
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() { 
+  modal.style.display = "none";
+}
