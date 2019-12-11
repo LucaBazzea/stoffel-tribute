@@ -166,6 +166,23 @@ section {
     display: none;
 }
 
+#myModal {
+    /*display: none;*/
+    text-align: center;
+    color: white;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    margin: 0; 
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: #000;
+    background-color: rgba(0,0,0,0.9);
+  }
+
 .flexbox {
     flex-wrap: wrap;
     flex-direction: column;
