@@ -90,18 +90,18 @@
             </div>
         
         <div id="myModal" class="modal">
-            <span class="close">X</span>
-            <img class="modal-img" id="img01">
-            <div id="caption"></div>
+            <p id="close"  onclick=closeR()>X</p>
+            <img id="imgTag" src="">
+            <p id="btn" onclick=imgNext()>></p>
         </div>
 
-        <section id="gallery">
+        <section id="gallery" onclick=openR()>
             <div class="flexbox">
-                <picture><img id="Img1" src="img/gorgeousbadger.jpg" alt="Badger in the brush"></picture>
-                <picture><img src="img/TheStoffel.gif" alt="Stoffel dancing"></picture>
-                <picture><img src="img/Badger2.jpeg" alt="headshot of Stoffel"></picture>
-                <picture><img src="img/badgerfield.jpg" alt="Badger in a field"></picture>
-                <picture><img src="img/sand-badger.jpg" alt="Badger in the sand"></picture>
+                <picture><img class="img" src="img/gorgeousbadger.jpg" alt="Badger in the brush"></picture>
+                <picture><img class="img" src="img/TheStoffel.gif" alt="Stoffel dancing"></picture>
+                <picture><img class="img" src="img/Badger2.jpeg" alt="headshot of Stoffel"></picture>
+                <picture><img class="img" src="img/badgerfield.jpg" alt="Badger in a field"></picture>
+                <picture><img class="img" src="img/sand-badger.jpg" alt="Badger in the sand"></picture>
             </div>
         </section>
         
@@ -109,6 +109,6 @@
             <div class="feet"><a href="https://github.com/LucaBazzea">github.com/LucaBazzea</a></div>
             <h5 class="feet">No Honey Badgers were harmed in the making of this site</h5>
         </footer>
-        <script src="js/modal.js"></script>
+        <script src="js/script.js"></script>
     </body>
 </html>

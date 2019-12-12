@@ -1,16 +1,41 @@
-var words = ["1","2","3","4"]
 
-let pTag = document.getElementById("wordElement")
+function closeR(){
+    document.getElementById("myModal").style.display = "none";
+}
 
-let wordCounter = 0
+function openR(){
+    document.getElementById("myModal").style.display = "block";
+}
 
-pTag.innerHTML = words[wordCounter]
+var img = [
+    "img/gorgeousbadger.jpg",
+    "img/TheStoffel.gif",
+    "img/Badger2.jpeg",
+    "img/badgerfield.jpg",
+    "img/sand-badger.jpg"
+]
 
-function whenClicked(){
-    if(wordCounter<4){wordCounter++
-    pTag.innerHTML = words[wordCounter]
+let imgElement = document.getElementById("imgTag");
+
+let imgCounter = 0;
+
+imgElement.src = img[imgCounter];
+
+function imgNext(){
+    if(imgCounter > img.length) {
+        imgCounter = 0;
     }
     else{
-        pTag.innerHTML = words[wordCounter]
+        imgCounter++;
+
+        if (imgCounter < img.length) {
+            imgElement.src = img[imgCounter];
+                
+          }
+          if(imgCounter == 5){
+            imgCounter = 0;
+            imgElement.src = img[imgCounter];
+
+        }
     }
 }
